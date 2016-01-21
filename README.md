@@ -11,13 +11,17 @@ mobile normalize css style
 > IOS适配IOS 6+以上版本
 > 
 
-******
 
+
+
+******
 ####安卓占比分析
 ![照片](http://img1.mydrivers.com/img/20151106/s_be1314d40ba5409e8d0865df5dc20474.jpg "安卓")
 
 
 ####IOS占比分析
-> * iOS 975%
-> * iOS 975%
-> * iOS 975%
+| Version   | Pre    |
+|:---------:|:------:|
+| iOS 9     | 75%    |
+| iOS 8     | 19%    |
+| Earlier   | 7%     |
