@@ -2,6 +2,11 @@
 mobile normalize css style
 移动端样式规范化CSS文件
 
+##Log
+2016-01-26
+
+完成v1.0.0版本的css文件编写
+
 
 ##Goal
 > 放弃PC端的一些浏览器，主要集中在移动端浏览器的样式规范化上(跨终端，响应式等)
@@ -10,8 +15,6 @@ mobile normalize css style
 > 
 > IOS适配IOS 6+以上版本
 > 
-
-
 
 
 ******
