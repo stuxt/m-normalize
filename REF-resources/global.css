@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],
+
+input[type="reset"],
+
+input[type="button"],
+
+input{-webkit-appearance:none; resize: none;}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); }
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+/* 图片自适应 */
+img {
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
+body{font-family: '宋体',Microsoft YaHei,Tahoma,Arial,sans-serif; color:#555; background-color:#F7F7F7;}
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+a{text-decoration:none; color:#969696; font-family: '宋体',Microsoft YaHei,Tahoma,Arial,sans-serif;}
+a:hover{color:#FED503; text-decoration:none;}
+ul,ol{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family: Microsoft YaHei;}
+img{border: none;}
+.scope{min-width:320px; max-width:540px;}
+
+/* 通用基样式 */
+.t-css{width:100%; overflow:hidden; display:table; }
+.t-img-css{display:block; width:100%; height:auto; overflow:hidden;} 
+.t-row-css{display:table-row; width:100%; }
+.t-cell-css{display:table-cell; overflow:hidden; vertical-align:middle; text-align:center; height:100%; box-sizing:border-box; }
+.rm-a-css{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+.set-img-css{display:block; width:100%; height:auto; overflow:hidden;}
+.base-box-css{width:100%; overflow:hidden;}
+
+
+/* 三档文字大小 */
+@media (max-width:399px){	
+html{font-size: 15px;}	
+}
+@media (min-width: 400px) and (max-width:480px){
+html{font-size: 20px;}
+}
+@media (min-width: 481px){
+html{font-size: 25px;}
+}
+
+/* 自定义checkbox */
+.mycontrol{width: 1rem; height: 1rem; border-radius: 3px; border: 1px solid #756f6f; box-sizing: border-box; background-color: #fff; cursor: pointer;}
+.mycontrol-on{background: url(../images/mycontrol.png) no-repeat center center #328FE1; border: 1px solid #328FE1;
+background-size: 0.68rem 0.52rem; }
+
+
+/* 基样式 */
+header{height:3.12rem; background-color:#328FE1; color:#fff; font-size:1.2rem; line-height:3.12rem; text-align:center; position:relative; border-bottom:1px solid #1A76CB; }
+header em{text-shadow:0 0 1px #1978cc;}
+footer{font-size:0.72rem; text-align:center; line-height:150%; margin-top:0.4rem; padding-bottom:0.4rem; font-family:"微软雅黑";  color:#000;}
+
+/* 分页栏 */
+.paging{height:3.2rem; margin:1rem 0 0; background-color:#fff; border-top:1px solid #DBDBDB; text-align:center; line-height:3.2rem; font-size:0.96rem; }
+.prevPage{background:url(../images/prev.png) no-repeat center center; float:left; margin-left:1.4rem;}
+.nextPage{background:url(../images/next.png) no-repeat center center; float:right; margin-right:1.4rem;}
+.prevPage,.nextPage{width:20%; height:100%; }
+
+
