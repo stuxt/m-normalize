@@ -13,7 +13,7 @@ mobile normalize css style
 > 
 > 安卓适配Android 4.0+以上版本
 > 
-> IOS适配IOS 6。0+以上版本
+> IOS适配IOS 6.0+以上版本
 > 
 
 
