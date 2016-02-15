@@ -11,9 +11,9 @@ mobile normalize css style
 ##Goal
 > 放弃PC端的一些浏览器，主要集中在移动端浏览器的样式规范化上(跨终端，响应式等)
 > 
-> 安卓适配Android 2.3+以上版本
+> 安卓适配Android 4.0+以上版本
 > 
-> IOS适配IOS 6+以上版本
+> IOS适配IOS 6。0+以上版本
 > 
 
 
